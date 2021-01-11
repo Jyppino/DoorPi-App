@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/key_action_rename"
+        android:title="@string/action_rename"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/key_action_promote"
+        android:title="@string/key_action_promote"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/key_action_demote"
+        android:title="@string/key_action_demote"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/key_action_delete"
+        android:title="@string/action_delete"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">DoorPi</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_register">New Device</string>
+    <string name="action_manage">Devices</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_rename_text">Please specify a new name</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="key_action_promote">Make Admin</string>
+    <string name="key_action_demote">Remove Admin</string>
+    <string name="key_confirm_yes">Yes</string>
+    <string name="key_confirm_no">No</string>
+    <string name="key_confirm_cancel">Cancel</string>
+    <string name="key_confirm_submit">Submit</string>
+
+    <string name="settings_host">Host IP address</string>
+    <string name="settings_host_summary">IP address of the Raspberry Pi</string>
+    <string name="settings_port">Port number</string>
+    <string name="settings_port_summary">Port number of the Raspberry Pi</string>
+    <string name="settings_ssl_certificate">Verify SSL certificates</string>
+    <string name="settings_ssl_certificate_summary">Do not allow self-signed SSL certificates</string>
+    <string name="settings_ssl">Use SSL</string>
+    <string name="settings_ssl_summary">Enforces HTTPS connection</string>
+    <string name="settings_version">Version</string>
+
+    <string name="main_connecting">Trying to connect</string>
+    <string name="main_disconnected">Disconnected</string>
+    <string name="main_unlock">Unlock</string>
+    <string name="main_bio_unsupported">No fingerprints enrolled</string>
+    <string name="main_bio_needed">Authentication required</string>
+    <string name="main_bio_retry">Please try again</string>
+    <string name="main_bio_success">Door unlocked</string>
+
+    <string name="register_explanation">The following details are needed to register your device</string>
+    <string name="register_button">Register</string>
+    <string name="register_hint_name">Your name</string>
+    <string name="register_hint_code">Invitation code</string>
+    <string name="register_error_name">Missing name</string>
+    <string name="register_error_code">Missing code</string>
+
+    <string name="invite_explanation">Use the following code to register a new device</string>
+    <string name="invite_explanation2">Code is time-restricted and single use only</string>
+    <string name="title_activity_manage">ManageActivity</string>
+</resources>

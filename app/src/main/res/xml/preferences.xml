@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:defaultValue="192.168.178.10"
+        android:icon="@drawable/ic_router_black_24dp"
+        android:key="pi_host"
+        android:singleLine="true"
+        android:summary="@string/settings_host_summary"
+        android:title="@string/settings_host" />
+
+    <EditTextPreference
+        android:defaultValue="3000"
+        android:icon="@drawable/ic_swap_calls_black_24dp"
+        android:key="pi_port"
+        android:singleLine="true"
+        android:summary="@string/settings_port_summary"
+        android:title="@string/settings_port" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_https_black_24dp"
+        android:key="ssl"
+        android:title="@string/settings_ssl"
+        android:summary="@string/settings_ssl_summary" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_verified_user_black_24dp"
+        android:key="sslCertificate"
+        android:title="@string/settings_ssl_certificate"
+        android:summary="@string/settings_ssl_certificate_summary" />
+
+    <PreferenceCategory
+        android:title="About"
+        app:iconSpaceReserved="false">
+        <PreferenceScreen
+            app:iconSpaceReserved="false"
+            android:title="@string/settings_version"
+            android:key="version"
+            android:summary="" />
+    </PreferenceCategory>
+</PreferenceScreen>
