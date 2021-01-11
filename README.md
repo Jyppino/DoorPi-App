@@ -17,3 +17,11 @@ Works together with [DoorPi-Server](https://github.com/Jyppino/DoorPi-Server).
   - Answered by decrypting challenge using private key, which is stored locally
   - Access to private key is dependent on fingerprint verification
  - Upon successful verification the door is unlocked using the GPIO of the Raspberry Pi 
+ 
+ ## Screenshots
+ ![Image 1](https://github.com/Jyppino/DoorPi-App/blob/main/screenshots/app_1.jpeg)
+ ![Image 2](https://github.com/Jyppino/DoorPi-App/blob/main/screenshots/app_2.jpeg)
+ ![Image 3](https://github.com/Jyppino/DoorPi-App/blob/main/screenshots/app_3.jpeg)
+ ![Image 4](https://github.com/Jyppino/DoorPi-App/blob/main/screenshots/app_4.jpeg)
+ ![Image 5](https://github.com/Jyppino/DoorPi-App/blob/main/screenshots/app_5.jpeg)
+ ![Image 6](https://github.com/Jyppino/DoorPi-App/blob/main/screenshots/app_6.jpeg)
